@@ -19,19 +19,9 @@
         <div class="card-columns">
             <?php
                 foreach ($menu as $m)   { 
-                    // echo '<div class="panel-body"
-                    //         <div class="col-sm-5 col-md-5">
-                    //             <div class="thumbnail">
-                    //                 <h4></h4>'.$m[2].'</h4><br>
-                    //                 <h3>'.$m[1].'</h3><br>
-                    //                 <p>'.$m[3].'</p>
-                    //             </div>
-                    //                 <button class="btn btn-success" id="'.$m[0].'" onClick="openItem(this.id)">Check Item</button>
-                    //         </div>
-                    //     </div>';
                     echo '<div class="menu-box card card-body" onClick="openItem(this.id)" id="'.$m[0].'">
                         <span class="float-right font-weight-bold">'.$m[2].'</span>
-                        <h6 class="text-truncate">'.$m[1].'</h6>
+                        <h5 class="text-truncate">'.$m[1].'</h5>
                         <p class="small">'.$m[3].'</p>
                         <button class="btn-centre btn btn-success" id="'.$m[0].'" onClick="openItem(this.id)">Check Item</button>
                         </div>';

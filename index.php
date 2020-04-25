@@ -1,11 +1,8 @@
 <?php
+	session_start();
 	include 'header.php';
 ?>
-	<div id='poster'>
-		<div id='menu_link'>
-			<button id='btn_menu' onclick="window.location.href='menu.php'">Check Menu</button>
-		</div>
-	</div>
+	<div id='poster' onclick="window.location.href='menu.php'"/>
 <?php
 	include 'footer.php';
 ?>

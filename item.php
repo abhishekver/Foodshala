@@ -31,6 +31,7 @@
 							<td>'.$r[2].'</td>
 							<td>'.$r[3].'</td>
 							<td><a href="success.php?food='.$food_info[1].'&rest='.$r[2].'&rest_id='.$r[1].'&cust_id='.$_SESSION['cust_id'].'&food_id='.$item_id.'&cost='.$r[3].'">Order</a></td>
+							<td><a onclick="addToCart('.$item_id.', \''.$food_info[1].'\', '.$r[3].')">Add to cart</a></td>
 						</tr>';
 					}
 				?>
