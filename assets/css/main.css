@@ -1,0 +1,84 @@
+body	{
+	/* background: url('https://cdn.aarp.net/content/dam/aarp/food/eating_out/2017/08/1140-deals-dine-wine-aarp.imgcache.revd2a23237a3ba494c70c7235f75d98f97.jpg'); */
+	background-color: #ebe4e9;
+	font-size: 90%;
+}
+
+#top	{
+	text-align: center;
+}
+
+#poster	{
+	text-align: center;
+	height: 600px;
+	opacity: 0.8;
+	display: block;
+	background: url('../images/pic1.jpg');
+}
+
+#menu_link	{
+	position: relative;
+	top: 90%;
+}
+
+#btn_menu	{
+	height: 35px;
+	width: 100px;
+	border-radius: 5px;
+	background: aqua;
+	
+}
+
+.forms	{
+	background: #cde8ec;
+	position: relative;
+	padding-top: 5%;
+	margin-top: 10px;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	left: 25%;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+#food_item	{
+	background: #ccd3c3;
+	position: relative;
+	padding-top: 5%;
+	margin-top: 20px;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	left: 15%;
+	text-align: center;
+	width: 75%;
+	margin-bottom: 20px;
+}
+
+.row	{
+	margin-top: 20px;
+	padding: 2%;
+}
+
+.dish-card	{
+	border-radius: 15px;
+}
+
+.navbar	{
+	padding: 0px;
+}
+
+.menu-box	{
+	min-width: 200px;
+	max-width: 250px;
+	max-height: 300px;
+	min-height: 15-px;
+}
+
+.btn-centre	{
+	width: 0.7;
+	height: 0.7;
+	align-self: center;
+}
