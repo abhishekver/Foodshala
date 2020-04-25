@@ -18,9 +18,8 @@
 		$item_pref = $_POST['item_pref'];
 		$desc = $_POST['desc'];
 		
-		echo $item_name." ".$price;
 		if(insert_Menu($item_name, $item_pref, $price, $desc))	{
-			echo 'Success';
+
 		}
 		else 	{
 

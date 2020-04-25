@@ -16,8 +16,7 @@
 		$rest_id = $_GET['rest_id'];
 		$food_id = $_GET['food_id'];
 		if(addToOrder($cust_id, $rest_id, $food_id))	{
-			session_destroy();
-			session_start();
+			
 		}
 		else {
 

@@ -1,5 +1,4 @@
 <?php
-    session_start();
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,6 +18,7 @@
 <body>
     <div id='top'>
         <h1 onclick="window.location.href='index.php'">FoodShala</h1>
+        <h5 onclick="window.location.href='cart.php'">Cart<span class="glyphicon glyphicon-shopping-cart"></span></h5>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
